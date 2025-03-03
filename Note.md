@@ -192,6 +192,32 @@ Interface ligne de commande interactive avec syntaxe JavaScript
 
 ### Projection et limitation des résultats
 
+### Test
+
+**1ère Requête :**
+
+![alt text](image-2.png)
+
+### Modélisation de données dans MongoDB
+
+#### Documents embarqués (dénormalisation)
+
+#### Références (équivalent à clés étrangères)
+
+#### Facteurs de décision
+
+- Fréquence d'accès aux données liées ensemble
+- Volume & croissance des données liées
+-
+-
+-
+
 ### Autres
 
 Modification de schémas SQL = Alter (Risque de perte de données)
+
+BDD existe si Collection existe si au moins 1 Document existe
+
+✖️ insert ✔️ insertOne/insertMany
+
+kaggle.com/learn
