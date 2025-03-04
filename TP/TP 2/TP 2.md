@@ -24,6 +24,11 @@
 
 ![alt text](Pictures/image-5.png)
 
+✖️ 
+<del>db.ecommerce_produits.find({commentaires: {$size: 3}})
+
+✔️ ![alt text](Pictures/image-25.png)
+
 ### Exercice 3 : Mises à jour
 
 **1. Augmenter le prix de tous les produits d'une catégories de 5%**
@@ -82,6 +87,10 @@
 
 ![alt text](Pictures/image-17.png)
 
+*Autre possibilité :*
+
+![alt text](Pictures/image-26.png)
+
 **2. Lister les produits premium avec un stock faible (<5)**
 
 - *Ajout du champ Premium*
@@ -91,7 +100,7 @@
 <p style="text-align:center;">V</p>
 
 <p align="center">
-  <img src="Pictures/image-19.png" />
+  <img src="Pictures/image-18.png" />
 </p>
 
 <p style="text-align:center;">V</p>
@@ -105,6 +114,10 @@
 **3. Rechercher les produits ayant reçu au moins un avis 5 étoiles**
 
 ![alt text](Pictures/image-22.png)
+
+*Autre possibilité (plus précise)*
+
+![alt text](Pictures/image-27.png)
 
 **4. Trouver les produits d'une catégorie, triés par prix décroissant, limités aux 5 premiers**
 

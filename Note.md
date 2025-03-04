@@ -212,6 +212,26 @@ Interface ligne de commande interactive avec syntaxe JavaScript
 -
 -
 
+### Indexation dans MongoDB
+
+#### Pourquoi indexer vos données
+
+**Sans index :**
+
+- MongoDB parcourt chaque Document (COLLSCAN)
+- Performances linéaires : O(n)
+- Problématique sur les lgrandes collections
+- Consomme beaucoup de ressources
+- Temps de réponse très lent
+
+**Avec index :**
+
+- Améliore drastiquement les requêtes
+- Structure de données efficace (B-tree)
+- Algorithme de recherche optimisé
+- Performances logarithmiques : O(log n)
+- Nécessaire pour les applications en production
+
 ### Autres
 
 Modification de schémas SQL = Alter (Risque de perte de données)
